@@ -1,8 +1,7 @@
 /*****************************************************************************
 
-Theme: Frozen;
-Slogan: Cool your mind;
-Version: 3.0.0;
+Theme: Material Design Theme for Devtools;
+Version: 0.1.0;
 By: Felipe Martinin;
 Site: felipemartinin.com;
 By Felipe Martinin
@@ -13,8 +12,8 @@ built on the chrome version 45.0.2454.101
   Facebook: facebook/FelipemMartinin
 
 
-  Project Repository: https://github.com/FelipeMartinin/frozen
-  Project Page: http://felipemartinin.github.io/frozen/
+  Project Repository: https://github.com/FelipeMartinin/material-design-devtools/
+  Project Page: http://felipemartinin.github.io/material-design-devtools/
 
 ********************************************************************************/
 
@@ -179,8 +178,8 @@ built on the chrome version 45.0.2454.101
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding-bottom: 5px !important;
-  box-shadow: inset 0 0 30px 0 #080808;
-  border-bottom: 1px solid #2e3c43 !important;
+  box-shadow: inset 0px 0px 3px 0px #a6f2f8 !important;
+  border-bottom: 1px solid #2f3740 !important;
 }
 .panel.elements .parent.selected.expanded + .children > li .webkit-html-pseudo-element:first-child,
 .panel.elements .parent.hovered.expanded + .children > li .webkit-html-pseudo-element:first-child {
@@ -195,7 +194,7 @@ built on the chrome version 45.0.2454.101
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding-bottom: 5px !important;
-  box-shadow: inset 0px 0px 2px 0px #2e3c43 !important;
+  box-shadow: inset 0px 0px 3px 0px #a6f2f8 !important;
   border-bottom: none !important;
 }
 .panel.elements /deep/ .parent.selected.expanded + .children > li .webkit-html-pseudo-element:first-child,

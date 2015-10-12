@@ -1,7 +1,7 @@
 # Material Design Theme for Chrome Devtools
 v0.1.0
 
-![Material Design](https://raw.githubusercontent.com/FelipeMartinin/frozen/master/images/Frozen-Logo.png)
+![Material Design](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/master/images/Frozen-Logo.png)
 
 > A Google Chrome Devtools Theme
 
@@ -9,7 +9,7 @@ v0.1.0
 
 ## About
 
-![Material Theme Screen](https://raw.githubusercontent.com/FelipeMartinin/frozen/master/images/frozen-screen.png)
+![Material Theme Screen](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/master/images/frozen-screen.png)
 
 
 * Theme Name: Material Design for Devtools
@@ -26,10 +26,7 @@ This is a theme inspired by [Material Theme](https://github.com/equinusocio/mate
 
 
 ## Features
-![Chrome Preview](https://raw.githubusercontent.com/FelipeMartinin/frozen/master/images/chrome-screen.png)
-
-- Smart Hightlights
-- Beautiful look 
+![Chrome Preview](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/master/images/chrome-screen.png)
 
 
 ## Installation Guide
