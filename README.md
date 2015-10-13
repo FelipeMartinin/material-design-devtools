@@ -1,7 +1,7 @@
 # Material Design Theme for Chrome Devtools
 v0.1.0
 
-![Material Design](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/material-design-for-devtools/master/images/marquee.png)
+![Material Design](https://github.com/FelipeMartinin/material-design-devtools/blob/master/material-design-for-devtools/images/marquee.png)
 
 > A Google Chrome Devtools Theme
 
@@ -9,7 +9,7 @@ v0.1.0
 
 ## About
 
-![Material Theme Screen](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/material-design-for-devtools/master/images/preview1.png)
+![Material Theme Screen](https://github.com/FelipeMartinin/material-design-devtools/blob/master/material-design-for-devtools/images/preview1.png)
 
 
 * Theme Name: Material Design for Devtools
@@ -26,7 +26,7 @@ This is a theme inspired by [Material Theme](https://github.com/equinusocio/mate
 
 
 ## Features
-![Chrome Preview](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/material-design-for-devtools/master/images/preview2.png)
+![Chrome Preview](https://github.com/FelipeMartinin/material-design-devtools/blob/master/material-design-for-devtools/images/preview2.png)
 
 
 ## Installation Guide
