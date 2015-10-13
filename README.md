@@ -1,7 +1,7 @@
 # Material Design Theme for Chrome Devtools
 v0.1.0
 
-![Material Design](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/master/images/Frozen-Logo.png)
+![Material Design](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/material-design-for-devtools/master/images/marquee.png)
 
 > A Google Chrome Devtools Theme
 
@@ -9,7 +9,7 @@ v0.1.0
 
 ## About
 
-![Material Theme Screen](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/master/images/frozen-screen.png)
+![Material Theme Screen](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/material-design-for-devtools/master/images/preview1.png)
 
 
 * Theme Name: Material Design for Devtools
@@ -26,13 +26,13 @@ This is a theme inspired by [Material Theme](https://github.com/equinusocio/mate
 
 
 ## Features
-![Chrome Preview](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/master/images/chrome-screen.png)
+![Chrome Preview](https://raw.githubusercontent.com/FelipeMartinin/material-design-devtools/material-design-for-devtools/master/images/preview2.png)
 
 
 ## Installation Guide
 
 
-Free to download and install via the [Chrome Webstore](https://chrome.google.com/webstore/detail/frozen-devtools-theme/gbaddinigglahkekcppiongkmgmpahml)
+Free to download and install via the [Chrome Webstore](https://chrome.google.com/webstore/detail/bhhaihcbledolbbigofbpegdbomoimfa/publish-accepted?hl=pt-BR)
 
 After install and enable in settings> extentions,  you need to enable custom themes to make it works:
 - Navigate to `chrome://flags/`
