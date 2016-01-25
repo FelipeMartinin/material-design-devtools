@@ -1,7 +1,7 @@
 {
 	"name": "Material Design Theme for Chrome Devtools",
 	"short_name": "Material Design Theme",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"devtools_page": "devtools.html",
 	"homepage_url": "https://github.com/FelipeMartinin/material-design-devtools",
 	"manifest_version": 2,
