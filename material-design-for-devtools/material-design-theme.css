@@ -814,11 +814,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 .styles-section.matched-styles .style-properties li.parent.expanded .expand-element {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-transform: rotate(90deg);
 }
@@ -840,33 +836,21 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 .styles-section.matched-styles .style-properties li.parent .expand-element {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-transform: rotate(0deg);
 }
 .data-grid th.sort-ascending > div::after {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -4px -108px !important;
 }
 .data-grid th.sort-descending > div::after {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -20px -96px !important;
 }
@@ -882,7 +866,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 ::shadow #search-results-pane-file-based .parent::before {
   -webkit-mask-position: -4px -93px !important;
 }
-.panel.network .outline-disclosure li.parent::before {
+.panel.network . li.parent::before {
   top: 3px !important;
 }
 .sidebar-tabbed-pane .section > .header::before,
@@ -892,11 +876,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 .status-bar-select-arrow {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -20px -96px !important;
 }
@@ -3644,11 +3624,9 @@ body ::shadow .sidebar-pane-stack .sidebar-pane-title.expanded::before,
 body ::shadow .timeline-expandable-expanded .timeline-expandable-arrow {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-transform: rotate(90deg);
 }
@@ -3669,33 +3647,27 @@ body ::shadow .timeline-expandable-collapsed .timeline-expandable-arrow,
 body ::shadow ::shadow #search-results-pane-file-based .parent::before {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-transform: rotate(0deg);
 }
 body ::shadow .data-grid th.sort-ascending > div::after {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -4px -108px !important;
 }
 body ::shadow .data-grid th.sort-descending > div::after {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -20px -96px !important;
 }
@@ -3721,11 +3693,9 @@ body ::shadow .event-bars .event-bar .header::before {
 body ::shadow .status-bar-select-arrow {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -20px -96px !important;
 }
@@ -4065,7 +4035,7 @@ body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
 }
 #devices-tab-content .devices-list-edit,
 #devices-tab-content .devices-list-remove {
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   background-color: #80cbc4 !important;
   background-image: none !important;
 }
