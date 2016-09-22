@@ -816,6 +816,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
   background-image: none !important;
   -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
+  -webkit-mask-position: -4px -96px;
   -webkit-transform: rotate(90deg);
 }
 .sidebar-pane-stack .sidebar-pane-title.expanded::before {
@@ -838,6 +839,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
   background-image: none !important;
   -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
+  -webkit-mask-position: -4px -96px;
   -webkit-transform: rotate(0deg);
 }
 .data-grid th.sort-ascending > div::after {
@@ -3956,9 +3958,6 @@ body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
 .network .request-headers-view .parent {
   margin-top: 1px !important;
 }
-.data-grid .header-container {
-  top: -1px !important;
-}
 ::shadow .suggest-box {
   color: #000 !important;
   background-color: #263238 !important;
@@ -4292,3 +4291,11 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 
 
 
+.tabbed-pane::shadow .tabbed-pane-header-tab {
+  background: #37474f !important;
+  background-color: #37474f !important;
+}
+.request-headers-view .outline-disclosure li.parent.expanded::before
+.data-grid .header-container {
+  -webkit-mask-position: -4px -98px !important;
+}
