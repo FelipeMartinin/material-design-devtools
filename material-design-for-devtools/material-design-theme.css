@@ -4299,9 +4299,15 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 .data-grid .header-container {
   -webkit-mask-position: -4px -98px !important;
 }
+::shadow > .toolbar-shadow .toolbar-button.hover .toolbar-glyph {
+    background-color: hsl(218, 81%, 59%) !important;
+}
 .filter-bar {
     background-color: #37474f !important;
 }
 .request-headers-view .outline-disclosure li.parent.expanded::before {
     -webkit-mask-position: -4px -98px !important;
+}
+::shadow > .tree-outline-disclosure .tree-outline li.navigator-folder-tree-item .tree-element-title {
+    color: #b1bdc4 !important;
 }
