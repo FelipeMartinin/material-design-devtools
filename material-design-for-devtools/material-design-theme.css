@@ -4311,3 +4311,6 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 ::shadow > .tree-outline-disclosure .tree-outline li.navigator-folder-tree-item .tree-element-title {
     color: #b1bdc4 !important;
 }
+.scope-chain-sidebar-pane-section-title {
+    color: #546e7a !important;
+}
