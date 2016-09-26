@@ -4279,13 +4279,14 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
  * border: #2e3c43
  * bardeep: #282e35
  * normal color: #b1bdc4
- * link: #c792ea
+ * link: #C893EB
  * attr: #ffcb6b
  * value #c3e88d
  * html #ff5370
  * comment: #546e7a;
  * white: #cdd3de;
-
+ * property: #76aeff
+ * very white: #f8f8f8;
 
 */
 
@@ -4314,4 +4315,13 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 }
 ::shadow .odd-row {
     background-color: #3e4c58 !important;
+}
+::shadow .tree-element-title {
+    color: #f8f8f8 !important;
+}
+::shadow .tree-outline li.selected .selection {
+    background-color: #546e7a !important;
+}
+::shadow ol.tree-outline:focus li.selected .selection {
+    background-color: hsl(218, 81%, 59%) !important;
 }
