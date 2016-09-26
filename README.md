@@ -21,7 +21,7 @@ v0.1.0
 
 
 
-This is a theme inspired by [Material Theme](https://github.com/equinusocio/material-theme) for sublime text, that brings the [Material Design](https://design.google.com/) visual language to your Chrome Devtools. This theme add some features like smart highlights, besides to make you Devtools interface more beautiful.
+This is a theme inspired by [Material Theme](https://github.com/equinusocio/material-theme) for sublime text, that brings the [Material Design](https://design.google.com/) visual language to your Chrome Devtools. This theme adds some features like smart highlights, besides making your Devtools interface more beautiful.
 
 
 
@@ -34,10 +34,10 @@ This is a theme inspired by [Material Theme](https://github.com/equinusocio/mate
 
 Free to download and install via the [Chrome Webstore](https://chrome.google.com/webstore/detail/bhhaihcbledolbbigofbpegdbomoimfa/publish-accepted?hl=pt-BR)
 
-After install and enable in settings> extentions,  you need to enable custom themes to make it works:
+After installing and enabling in settings > extensions, you need to enable custom themes to make it work:
 - Navigate to `chrome://flags/`
 - Search by: `Developer Tools Experiments` and click on enable
-- Click on "Relunch Now" button at the bottom  and wait the browser relunch
+- Click on "Relaunch Now" button at the bottom  and wait the browser relaunch
 - Now, open the devtools
 - Go to the settings (gear icon) > experiments
 - click `allow custom ui themes`
