@@ -281,7 +281,7 @@ span.cm-token-highlight:before {
 }
 .cm-highlight {
   -webkit-animation: "fadeout-revised" 3s 0s !important;
-  
+
 }
 .cm-highlight *:not(.CodeMirror-linenumber) {
   color: #e6e6e6 !important;
@@ -299,11 +299,11 @@ span.cm-token-highlight:before {
 @-webkit-keyframes fadeout-revised {
   0% {
     background-color: #3e4c58;
-    
+
   }
   50% {
     background-color: #3e4c58;
-    
+
   }
   100% {
     background-color: #263238;
@@ -2861,7 +2861,7 @@ label.checkbox,
 .tabbed-pane:not(.help-window-main) .tabbed-pane-header {
   background: #263238 !important;
   border-top: 1px solid #2e3c43 !important;
-  
+
   border-bottom: none;
 }
 .tabbed-pane:not(.help-window-main) .tabbed-pane-header .tabbed-pane-header-tab {
@@ -3531,7 +3531,7 @@ body ::shadow .cm-tab:before {
 }
 body ::shadow .cm-highlight {
   -webkit-animation: "fadeout-revised" 3s 0s !important;
-  
+
 }
 body ::shadow .cm-highlight *:not(.CodeMirror-linenumber) {
   color: #e6e6e6 !important;
@@ -3549,11 +3549,11 @@ body ::shadow .cm-line-without-source-mapping {
 @-webkit-keyframes fadeout-revised {
   0% {
     background-color: #3e4c58;
-    
+
   }
   50% {
     background-color: #3e4c58;
-    
+
   }
   100% {
     background-color: #263238;
@@ -3869,7 +3869,7 @@ body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
   background: #263238 !important;
 }
 ::shadow .tabbed-pane-header-contents {
-  
+
   color: #999999 !important;
 }
 .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
@@ -3886,7 +3886,7 @@ body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
   color: #999999 !important;
 }
 .tabbed-pane::shadow .tabbed-pane-header {
-  
+
   border-bottom: 1px solid #263238 !important;
   border: none;
 }
@@ -4268,7 +4268,7 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 
 
 
-/* 
+/*
  * Color Scheme
  *
  *
@@ -4282,14 +4282,12 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
  * link: #c792ea
  * attr: #ffcb6b
  * value #c3e88d
- * html #ff5370 
- * comment: 546e7a;
+ * html #ff5370
+ * comment: #546e7a;
  * white: #cdd3de;
 
 
 */
-
-
 
 .tabbed-pane::shadow .tabbed-pane-header-tab {
   background: #37474f !important;
@@ -4313,4 +4311,7 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 }
 .scope-chain-sidebar-pane-section-title {
     color: #546e7a !important;
+}
+::shadow .odd-row {
+    background-color: #3e4c58 !important;
 }
