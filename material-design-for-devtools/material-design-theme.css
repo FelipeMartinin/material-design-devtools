@@ -294,7 +294,7 @@ span.cm-token-highlight:before {
   border-right: none !important;
 }
 .cm-line-without-source-mapping {
-  background-color: #252525 !important;
+  background-color: #263238 !important;
 }
 @-webkit-keyframes fadeout-revised {
   0% {
@@ -4324,4 +4324,17 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 }
 ::shadow ol.tree-outline:focus li.selected .selection {
     background-color: hsl(218, 81%, 59%) !important;
+}
+::shadow .cm-line-without-source-mapping {
+    background-color: #263238 !important;
+}
+::shadow .CodeMirror pre {
+    background-color: #263238 !important;
+}
+.network-status-pane {
+    background-color: #2e3c43 !important;
+}
+/* TODO is duplicated above? */
+.resources-dividers-label-bar {
+  background-color: #3e4c58 !important;
 }
