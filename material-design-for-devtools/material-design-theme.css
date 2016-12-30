@@ -281,7 +281,7 @@ span.cm-token-highlight:before {
 }
 .cm-highlight {
   -webkit-animation: "fadeout-revised" 3s 0s !important;
-  
+
 }
 .cm-highlight *:not(.CodeMirror-linenumber) {
   color: #e6e6e6 !important;
@@ -294,16 +294,16 @@ span.cm-token-highlight:before {
   border-right: none !important;
 }
 .cm-line-without-source-mapping {
-  background-color: #252525 !important;
+  background-color: #263238 !important;
 }
 @-webkit-keyframes fadeout-revised {
   0% {
     background-color: #3e4c58;
-    
+
   }
   50% {
     background-color: #3e4c58;
-    
+
   }
   100% {
     background-color: #263238;
@@ -814,12 +814,9 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 .styles-section.matched-styles .style-properties li.parent.expanded .expand-element {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
+  -webkit-mask-position: -4px -96px;
   -webkit-transform: rotate(90deg);
 }
 .sidebar-pane-stack .sidebar-pane-title.expanded::before {
@@ -840,33 +837,22 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 .styles-section.matched-styles .style-properties li.parent .expand-element {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
+  -webkit-mask-position: -4px -96px;
   -webkit-transform: rotate(0deg);
 }
 .data-grid th.sort-ascending > div::after {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -4px -108px !important;
 }
 .data-grid th.sort-descending > div::after {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -20px -96px !important;
 }
@@ -882,7 +868,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 ::shadow #search-results-pane-file-based .parent::before {
   -webkit-mask-position: -4px -93px !important;
 }
-.panel.network .outline-disclosure li.parent::before {
+.panel.network . li.parent::before {
   top: 3px !important;
 }
 .sidebar-tabbed-pane .section > .header::before,
@@ -892,11 +878,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 .status-bar-select-arrow {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
-  -webkit-mask-position: -4px -96px !important;
-  -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -20px -96px !important;
 }
@@ -2879,7 +2861,7 @@ label.checkbox,
 .tabbed-pane:not(.help-window-main) .tabbed-pane-header {
   background: #263238 !important;
   border-top: 1px solid #2e3c43 !important;
-  
+
   border-bottom: none;
 }
 .tabbed-pane:not(.help-window-main) .tabbed-pane-header .tabbed-pane-header-tab {
@@ -3549,7 +3531,7 @@ body ::shadow .cm-tab:before {
 }
 body ::shadow .cm-highlight {
   -webkit-animation: "fadeout-revised" 3s 0s !important;
-  
+
 }
 body ::shadow .cm-highlight *:not(.CodeMirror-linenumber) {
   color: #e6e6e6 !important;
@@ -3567,11 +3549,11 @@ body ::shadow .cm-line-without-source-mapping {
 @-webkit-keyframes fadeout-revised {
   0% {
     background-color: #3e4c58;
-    
+
   }
   50% {
     background-color: #3e4c58;
-    
+
   }
   100% {
     background-color: #263238;
@@ -3644,11 +3626,9 @@ body ::shadow .sidebar-pane-stack .sidebar-pane-title.expanded::before,
 body ::shadow .timeline-expandable-expanded .timeline-expandable-arrow {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-transform: rotate(90deg);
 }
@@ -3669,33 +3649,27 @@ body ::shadow .timeline-expandable-collapsed .timeline-expandable-arrow,
 body ::shadow ::shadow #search-results-pane-file-based .parent::before {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-transform: rotate(0deg);
 }
 body ::shadow .data-grid th.sort-ascending > div::after {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -4px -108px !important;
 }
 body ::shadow .data-grid th.sort-descending > div::after {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -20px -96px !important;
 }
@@ -3721,11 +3695,9 @@ body ::shadow .event-bars .event-bar .header::before {
 body ::shadow .status-bar-select-arrow {
   background-color: #8c8c8c !important;
   background-image: none !important;
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   -webkit-mask-position: -4px -96px !important;
   -webkit-mask-repeat: no-repeat !important;
-  color: #b1bdc4 !important;
-  opacity: 1 !important;
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
   -webkit-mask-position: -20px -96px !important;
 }
@@ -3897,7 +3869,7 @@ body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
   background: #263238 !important;
 }
 ::shadow .tabbed-pane-header-contents {
-  
+
   color: #999999 !important;
 }
 .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
@@ -3914,7 +3886,7 @@ body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
   color: #999999 !important;
 }
 .tabbed-pane::shadow .tabbed-pane-header {
-  
+
   border-bottom: 1px solid #263238 !important;
   border: none;
 }
@@ -3985,9 +3957,6 @@ body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
 }
 .network .request-headers-view .parent {
   margin-top: 1px !important;
-}
-.data-grid .header-container {
-  top: -1px !important;
 }
 ::shadow .suggest-box {
   color: #000 !important;
@@ -4065,7 +4034,7 @@ body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
 }
 #devices-tab-content .devices-list-edit,
 #devices-tab-content .devices-list-remove {
-  -webkit-mask-image: url(Images/statusbarButtonGlyphs.png) !important;
+  -webkit-mask-image: url(Images/toolbarButtonGlyphs.png) !important;
   background-color: #80cbc4 !important;
   background-image: none !important;
 }
@@ -4299,7 +4268,7 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 
 
 
-/* 
+/*
  * Color Scheme
  *
  *
@@ -4310,15 +4279,69 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
  * border: #2e3c43
  * bardeep: #282e35
  * normal color: #b1bdc4
- * link: #c792ea
+ * link: #C893EB
  * attr: #ffcb6b
  * value #c3e88d
- * html #ff5370 
- * comment: 546e7a;
+ * html #ff5370
+ * comment: #546e7a;
  * white: #cdd3de;
-
+ * property: #76aeff
+ * very white: #f8f8f8;
 
 */
 
-
-
+.tabbed-pane::shadow .tabbed-pane-header-tab {
+  background: #37474f !important;
+  background-color: #37474f !important;
+}
+.request-headers-view .outline-disclosure li.parent.expanded::before
+.data-grid .header-container {
+  -webkit-mask-position: -4px -98px !important;
+}
+::shadow > .toolbar-shadow .toolbar-button.hover .toolbar-glyph {
+    background-color: hsl(218, 81%, 59%) !important;
+}
+.filter-bar {
+    background-color: #37474f !important;
+}
+.request-headers-view .outline-disclosure li.parent.expanded::before {
+    -webkit-mask-position: -4px -98px !important;
+}
+::shadow > .tree-outline-disclosure .tree-outline li.navigator-folder-tree-item .tree-element-title {
+    color: #b1bdc4 !important;
+}
+.scope-chain-sidebar-pane-section-title {
+    color: #546e7a !important;
+}
+::shadow .odd-row {
+    background-color: #3e4c58 !important;
+}
+::shadow .tree-element-title {
+    color: #f8f8f8 !important;
+}
+::shadow .tree-outline li.selected .selection {
+    background-color: #546e7a !important;
+}
+::shadow ol.tree-outline:focus li.selected .selection {
+    background-color: hsl(218, 81%, 59%) !important;
+}
+::shadow .cm-line-without-source-mapping {
+    background-color: #263238 !important;
+}
+::shadow .CodeMirror pre {
+    background-color: #263238 !important;
+}
+.network-status-pane {
+    background-color: #2e3c43 !important;
+}
+/* TODO is duplicated above? */
+.resources-dividers-label-bar {
+  background-color: #3e4c58 !important;
+}
+/* Fix for Network/Request Payload/first level of expansion */
+* {
+  color: #b1bdc4 !important;
+}
+span.being-edited {
+  color: #cdd3de !important;
+}
