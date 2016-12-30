@@ -4,7 +4,7 @@
 	"version": "0.1.2",
 	"devtools_page": "devtools.html",
 	"homepage_url": "https://github.com/FelipeMartinin/material-design-devtools",
-	"manifest_version": 3,
+	"manifest_version": 2,
 	"icons": {
 		"16": "images/icon16.png",
 		"48": "images/icon48.png",
